@@ -17,8 +17,160 @@
 
 /* reseting browser default css  */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* frontend mentor default css */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body{
+    background-color: var(--Pale-blue);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--Red-Hat-Display);
+    background: url(./images/pattern-background-desktop.svg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    
+}
+
+.order-card{
+    width: 400px;
+    background-color: white;
+    border-radius:15px 15px 15px 15px ;
+}
+
+.order-card > img{
+    width: 100%;
+    border-radius:15px 15px 0px 0px ;
+}
+
+.order-card .order-card-content{
+    padding:1rem 2.5rem ;
+}
+
+.order-card .order-card-content h1{
+    text-align: center;
+    font-weight: 900;
+    color: var(--Dark-blue);
+    font-size: 24px;
+    margin:1rem 0;
+}
+
+.order-card .order-card-content p{
+    text-align: center;
+    font-weight: 400;
+    color: var(--Desaturated-blue);
+}
+
+.order-card .subcard{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:1rem 2.5rem ;
+  background-color: var(--Very-pale-blue);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.order-card .subcard .subcard-col-1{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.order-card .subcard .subcard-col-1 .plan-price h2{
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--Dark-blue);
+}
+
+.order-card .subcard .subcard-col-1 .plan-price p{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--Desaturated-blue );
+}
+
+.order-card .subcard .subcard-col-2 .change{
+  border: none;
+  font-weight: 700;
+  color: var(--Brigt-blue);
+  text-decoration: underline;
+  transition: 0.3s ease-in-out all;
+  cursor: pointer;
+}
+
+.order-card .subcard .subcard-col-2 .change:hover{
+  text-decoration: none;
+  opacity: 0.7;
+  
+
+}
+
+.order-card .btn-group{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2.5rem;
+  row-gap: 1rem;
+}
+
+.order-card .btn-group .payment{
+  padding:0.7rem 1rem;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  background-color: var(--Brigt-blue);
+  color: white;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.3s ease-in-out all;
+  cursor: pointer;
+}
+
+.order-card .btn-group .payment:hover{
+  opacity: 0.7;
+
+}
+
+.order-card .btn-group .cancel{
+  padding:0.7rem 1rem;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  background-color: transparent;
+  color: var(--Desaturated-blue);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out all;
+}
+
+.order-card .btn-group .cancel:hover{
+  color: var(--Dark-blue);
+}
+
+@media screen and (max-width:450px) {
+  main{
+   
+    background: url(./images/pattern-background-mobile.svg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    
+}
 }
