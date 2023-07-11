@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://github.com/vashu-kashyap/order-summary-card)
+- Live Site URL: [](https://64acedf268e85a3e64a00180--bejewelled-chebakia-c815ec.netlify.app/)
 
 ## My process
 
