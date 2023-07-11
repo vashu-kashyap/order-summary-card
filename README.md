@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-In the order summary project, I learned how to effectively utilize HTML5 semantic elements to structure and organize the content of the webpage. Semantic elements such as  <main>  and <footer> helped me improve the accessibility and readability of the webpage.
+In the order summary project, I learned how to effectively utilize HTML5 semantic elements to structure and organize the content of the webpage. Semantic elements such as     and <footer> helped me improve the accessibility and readability of the webpage.
 
 Additionally, I explored the concept of CSS custom properties, also known as CSS variables, which allowed me to define reusable values and easily apply them across different elements. By utilizing custom properties, I could efficiently manage and update styles throughout the project, providing consistency and flexibility.
 
